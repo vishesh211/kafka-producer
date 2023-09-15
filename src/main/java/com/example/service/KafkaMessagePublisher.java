@@ -14,7 +14,7 @@ public class KafkaMessagePublisher {
     private KafkaTemplate<String, Object> template;
 
     public void sendMessageToTopic(String message) {
-        CompletableFuture<SendResult<String, Object>> send = template.send("dem-2", message);
+        CompletableFuture<SendResult<String, Object>> send = template.send("demo-3", message);
         send.whenComplete((result, ex) -> {
             if (ex == null) {
                 System.out.println("Sent Message: " + message + " with offset: " + result.getRecordMetadata().offset());
