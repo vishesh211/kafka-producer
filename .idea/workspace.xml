@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dc06652-11bd-44c1-a67e-36417d1cd26a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/KafkaProducerConfig.java" afterDir="false" />
+    <list default="true" id="9dc06652-11bd-44c1-a67e-36417d1cd26a" name="Changes" comment="added configuration for kafka publisher">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/EventController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/KafkaMessagePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/KafkaMessagePublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +70,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694811578938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added configuration for kafka publisher">
+      <option name="closed" value="true" />
+      <created>1694811956129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694811956129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created the KafkaMessagePublisher" />
     <MESSAGE value="created evencontroller for kafka and sending bulk messages to a topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="created evencontroller for kafka and sending bulk messages to a topic" />
+    <MESSAGE value="added configuration for kafka publisher" />
+    <option name="LAST_COMMIT_MESSAGE" value="added configuration for kafka publisher" />
   </component>
 </project>
